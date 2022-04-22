@@ -1,0 +1,43 @@
+.registerpage{
+    margin: 50px;
+
+    .title{
+        font-weight: 700;
+		font-size: 50px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .form{
+        background: #FFFFFF;
+        padding: 10px;
+        width: 300px;
+        border-radius: 4px;
+        margin: 30px auto auto auto;
+
+        .header{
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        Button{
+            display: block;
+            margin: 0 auto;
+        }
+
+        .link{
+            width: 100px;
+            margin: 0 auto;
+            display: block;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .errorMessage{
+            color: #FF0000;
+            text-align: center;
+            font-size: 14px;
+        }
+    }
+}
